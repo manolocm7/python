@@ -50,7 +50,7 @@ class Persona:
 
                 return 1,imc
 
-    def esMayorDeEdad(self):
+    def MayorDeEdad(self):
 
         if int(self.edad)>=18:
 
@@ -120,21 +120,21 @@ def imc(persona):
 
     if a==-1:
 
-        print(persona1.nombre+" Esta por debajo de su peso ideal su imc es: "+str(b))
+        print(persona1.nombre+" Esta por debajo de su peso ideal, su imc es: "+str(b))
 
     elif a==0:
 
-        print(persona1.nombre+" Esta en peso ideal su imc es: "+str(b))
+        print(persona1.nombre+" Esta en peso ideal, su imc es: "+str(b))
 
     elif a==1:
 
-        print(persona1.nombre+" Esta por encima de su peso ideal su imc es: "+str(b))
+        print(persona1.nombre+" Esta por encima de su peso ideal, su imc es: "+str(b))
 
 
 
 def tipoEdad(persona):
 
-    if persona.esMayorDeEdad():
+    if persona.MayorDeEdad():
 
         print("Es mayor de edad")
 
@@ -158,7 +158,7 @@ persona1 = Persona(nombre,edad,None,None,peso,altura)
 
 persona2 = Persona(nombre,edad,None,None,str(80),str(1.80))
 
-persona3 = Persona("Paco",str(23),None,None,str(80),str(1.80))
+persona3 = Persona("Juan",str(23),None,None,str(80),str(1.80))
 
 
 
