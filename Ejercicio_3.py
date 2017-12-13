@@ -136,11 +136,11 @@ class Videojuego:
 
 
 
-listSeries=(Serie("Beacking Bad",2,"Accion","desconocido"),Serie("Prison Break",4,"Aventura","Desconocido"),Serie("Juego de Tronos",7,"Accion","Desconocido"),Serie("Juego de Tronos",6,"Accion","Desconocido"),Serie("Arrow",5,"Accion","Desconocido"))
+listSeries=(Serie("Flash",2,"Accion","desconocido"),Serie("Prison Break",4,"Aventura","Desconocido"),Serie("Juego de Tronos",7,"Accion","Desconocido"),Serie("Juego de Tronos",6,"Accion","Desconocido"),Serie("Arrow",5,"Accion","Desconocido"))
 
 
 
-listVideojuegos=(Videojuego("Call of dutty w3",20,"Accion","Accion Activity"),Videojuego("Call of dutty w2",20,"Accion","Accion Activity"),Videojuego("Call of dutty Black ops",20,"Accion","Accion Activity"),Videojuego("Call of dutty Black ops 2",20,"Accion","Accion Activity"),Videojuego("Call of dutty Black ops 3",20,"Accion","Accion Activity"))
+listVideojuegos=(Videojuego("Call of duty w3",20,"Accion","Accion Activity"),Videojuego("Call of dutty w2",20,"Accion","Accion Activity"),Videojuego("Call of dutty Black ops",20,"Accion","Accion Activity"),Videojuego("Call of dutty Black ops 2",20,"Accion","Accion Activity"),Videojuego("Call of dutty Black ops 3",20,"Accion","Accion Activity"))
 
 
 
